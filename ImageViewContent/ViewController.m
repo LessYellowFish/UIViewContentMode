@@ -66,7 +66,7 @@ UIViewContentModeRedraw区别 自己找个图片试一试我这里没有试，�
     self.labelArr = @[@"UIViewContentModeScaleToFill",@"UIViewContentModeScaleAspectFit",@"UIViewContentModeScaleAspectFill",@"UIViewContentModeRedraw",@"UIViewContentModeCenter",@"UIViewContentModeTop",@"UIViewContentModeBottom",@"UIViewContentModeLeft",@"UIViewContentModeRight",@"UIViewContentModeTopLeft",@"UIViewContentModeTopRight",@"UIViewContentModeBottomLeft",@"UIViewContentModeBottomLeft"];
     self.titleLabel.text = _labelArr[0];
 
-    ///VGGGGGGGGGGG？？？？？？？
+    ///VGGGGGGGGGGG？？？？？？
 }
 
 - (IBAction)click:(id)sender {
