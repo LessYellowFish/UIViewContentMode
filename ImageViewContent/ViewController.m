@@ -61,8 +61,12 @@ UIViewContentModeRedraw区别 自己找个图片试一试我这里没有试，�
     [super viewDidLoad];
     
     // Do any additional setup after loading the view, typically from a nib.
+    NSString *string = @"GG";
+    NSLog(@"%@",string);
     self.labelArr = @[@"UIViewContentModeScaleToFill",@"UIViewContentModeScaleAspectFit",@"UIViewContentModeScaleAspectFill",@"UIViewContentModeRedraw",@"UIViewContentModeCenter",@"UIViewContentModeTop",@"UIViewContentModeBottom",@"UIViewContentModeLeft",@"UIViewContentModeRight",@"UIViewContentModeTopLeft",@"UIViewContentModeTopRight",@"UIViewContentModeBottomLeft",@"UIViewContentModeBottomLeft"];
     self.titleLabel.text = _labelArr[0];
+
+    ///VGGGGGGGGGGG
 }
 
 - (IBAction)click:(id)sender {
